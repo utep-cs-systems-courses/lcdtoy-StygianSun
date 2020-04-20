@@ -16,11 +16,11 @@ main()
   u_char j;
   clearScreen(COLOR_BLUE);
 
-  for (j=0; j<15; j++)
+  for (j=10; j<25; j++)
     drawPixel(j, j, COLOR_BLACK);
-  for (j=0; j<15; j++)
-    drawPixel(0, j, COLOR_BLACK);
-  for (j=0; j<15; j++)
-    drawPixel(j, 15, COLOR_BLACK);
+  for (j=10; j<25; j++)
+    drawPixel(j, 25, COLOR_BLACK);
+  for (j=10; j<25; j++)
+    drawPixel(10, j, COLOR_BLACK);
   
 }
